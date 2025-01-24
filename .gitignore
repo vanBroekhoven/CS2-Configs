@@ -1,0 +1,17 @@
+
+
+# Ignore VSCode folder
+.vscode/
+
+# Ignore all original game configuration files
+autoexec_OLD_CSGO.cfg
+fix_cs_config.cfg
+user_keys_default.vcfg
+user_keys_dev_default.vcfg
+machine_convars_default.vcfg
+server_default.cfg
+
+# Ignore all gamemode configuration files (original files)
+gamemode_*.cfg
+
+# Add any additional files or patterns to ignore below
