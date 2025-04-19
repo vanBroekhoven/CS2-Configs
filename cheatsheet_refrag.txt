@@ -1,0 +1,258 @@
+https://wiki.refrag.gg/
+COMMAND                          DESCRIPTION
+-------------------------------------------
+.aim                             Auth Command aim
+.aimbotz                         Creator Studio Game Mode
+.aimbotz20                       Creator Studio Game Mode
+.aimbotz360                      Creator Studio Game Mode
+.aimbotz8                        Creator Studio Game Mode
+.aimusp                          Auth Command aimusp
+.angletrainer                    Creator Studio Game Mode
+.awpflick                        Creator Studio Game Mode
+.awphold                         Creator Studio Game Mode
+.blitz                           Creator Studio Game Mode
+.bunnyhop                        Creator Studio Game Mode
+.clutch                          Creator Studio Game Mode
+.creatorstudio                   MOD
+.crossfire                       Creator Studio Game Mode
+.deathmatch                      MOD
+.defender                        Creator Studio Game Mode
+.duels                           Creator Studio Game Mode
+.momentum                        Creator Studio Game Mode
+.nadr                            MOD
+.pop                             Creator Studio Game Mode
+.prefire                         Creator Studio Game Mode
+.quickscope                      Creator Studio Game Mode
+.rapid                           Creator Studio Game Mode
+.recoil                          MOD
+.repeek                          Creator Studio Game Mode
+.restrat                         MOD
+.retakes                         MOD
+.scrim                           MOD
+.spray                           Creator Studio Game Mode
+.vpl                             MOD
+.warmup                          MOD
+.waves                           MOD
+.xfire                           Creator Studio Game Mode
+-------------------------------------------
+.weapon-name                     Change gun (Example: .ak)
+-------------------------------------------
+-------------------------------------------
+.ammomode                        Toggle sv_infinite_ammo 1 or 2 (Limited clip or infinite)
+.autobhop                        Creator Studio Command autobhop
+.bhop                            Creator Studio Command bhop
+.cold                            Set gamemode to smart (With a cold start where you elo starts at 75% of your max)
+.comp                            Set gamemode to competitive
+.countdown                       Set countdown timer
+.demos                           Check the status of existing demos
+.easy                            Easy difficulty preset
+.elo                             Set gamemode to practice with specific elo settings (Or check your own .smart elo)
+.expert                          Expert difficulty preset
+.forceupload                     Attempt to forcefully upload any failed demos
+.hard                            Hard difficulty preset
+.help                            Show help
+.impacts                         Toggle sv_showimpacts
+.impactstime                     Set sv_showimpacts_time
+.importgrenadegroup              Converts a grenade group to creator studio utility arenas
+.kick                            Kick players from the server
+.kickid                          Kick players from the server by steam id
+.load                            Load a custom set by id
+.map                             Change map
+.mysets                          Lists sets created by you in console
+.nightmare                       Nightmare difficulty preset
+.nohud                           Toggle constant hud text if there is any
+.normal                          Default difficulty preset
+.persistent                      Toggle whether or not arenas should reset after death
+.popdisco                        Sets random balloon colors
+.popeffects                      Toggles balloon sound and particle effects
+.popgrid                         Set grid gamemode
+.popheadshot                     Set headshot gamemode
+.popnogun                        Removes your guns to only click to kill targets
+.poprgb                          Sets balloon color by RGB values .rgb 255 255 255
+.poptargets                      Set amount of targets to spawn
+.prac                            Set gamemode to practice
+.publish                         Publish currently loaded set if it belongs to you
+.replay                          Show replay of current arena
+.replays                         Toggle whether or not to show arena replays
+.s                               Start the game
+.save                            Save a custom set
+.session                         Display your overall stats (Can also check by specific weapon)
+.sets                            Lists sets you've subscribed to in console
+.skip                            Skips an arena during exam bootcamp
+.smart                           Set gamemode to smart
+.stats                           Display your overall stats of your current run (Can also check by specific weapon)
+.stop                            Stop the game
+.update                          Update currently loaded set if it belongs to you
+.xray                            Toggle xray
+-------------------------------------------
+.autoreset                       Toggle whether or not game should fully reset everytime you die
+.blood                           Toggle blood
+.botrush                         Toggle whether or not specific bot can rush after swinging
+.canpeekbeforeutil               Toggle whether or not bots can peek before they throw their set util
+.canspin                         Toggle whether or not bots can do 360 mid air while jumping with a scoped weapon
+.canspray                        Toggle whether or not bots can spray (Combine with .cansway and .aimoffset for randomness)
+.cansway                         Toggle whether or not bots can sway with their aim (Be inaccurate, used with .aimoffset)
+.canutil                         Toggle whether or not bots can throw util
+.clearseed                       Clears seed set by .seed command
+.delay                           Set the delay until next bot peeks
+.dev                             Enable developer mode
+.duckchance                      Set the amount of chance that the bot will duck
+.endless                         Toggle endless mode
+.headshot                        Toggle whether or not bots should only take damage from headshots
+.jigglechance                    Set the amount of chance that the bot will jiggle
+.jumpchance                      Set the amount of chance that the bot will jump
+.n                               Go to next arena
+.p                               Go to previous arena
+.poparea                         Draw target practice spawn area
+.popclearareas                   Clear all areas
+.popdelarea                      Deletes area closest to your aim
+.r                               Restart the game
+.repeat                          Repeat active arena or by index
+.restart                         Restart the game
+.rushchance                      Set the amount of chance that the bot will rush you
+.seed                            Sets the seed to use for the entire set (Randomization)
+.start                           Start the game
+.swingers                        Set amount of swingers
+.turtlechance                    Set the amount of chance that the bot will turtle peek
+.utilchance                      Set the amount of chance that the bot will throw set util
+.utilcooldown                    Set the global cooldown of how often one piece of utility can be thrown
+.utilmode                        Set utility throw mode (Normal, Mixed, Ordered)
+-------------------------------------------
+.addarena                        Add a new arena
+.addbot                          Add a bot
+.addbotgroup                     Add a bot group
+.addsmoke                        Add a smoke for smoke arena type
+.addspawn                        Add a spawn point
+.aimoffset                       Sets how far off target the bots aim can be
+.aimspeed                        Set bots aim speed
+.alwaysspawnlastbot              Always includes the last bot index no matter what settings
+.arenaname                       Change name of arena
+.arenas                          List arenas or select an arena
+.arenastatus                     Prints selected arena info to console
+.arenaswingers                   Specify the max amount of swingers at once for the arena
+.arenateam                       Change team of arena
+.arenatype                       Set the type of arena this is
+.armor                           Toggle bot kevlar modes or on players during pvp
+.attackontitan                   
+.botalwaysduck                   Toggle whether or not specific bot will always duck
+.botalwayspeekbeforeutil         Toggle whether or not specific bot will always peek before throwing set util
+.botalwaysturtle                 Toggle whether or not specific bot will always turtle peek
+.botdir                          Set bot swing direction
+.botdir2                         Set bot swing direction but by dir first then index
+.botdisplacement                 Set bots maximum position displacement
+.botduck                         Toggle whether or not specific bot can duck
+.botgun                          Set bot gun
+.botguns                         Set bots default gun
+.bothealth                       Set bot health
+.botjiggle                       Toggle whether or not specific bot can jiggle
+.botjump                         Toggle whether or not specific bot can jump
+.botmaxdelay                     Set the max amount of delay until specific bot peeks
+.botmindelay                     Set the min amount of delay until specific bot peeks
+.botpeekgroup                    Set bot peek group (More on this on our wiki)
+.botpos                          Set bot position
+.botrecord                       Starts recording movement for a bot to playback during gameplay
+.botrecordclear                  Clear bot recording
+.botrecordtest                   Tests the bots recording
+.botutil                         Sets the specific bots util to whatever util you threw most recently
+.botutilclear                    Clears all util for specific bot
+.botutiltest                     Tests the specific bots util
+.botwidest                       Set the widest angle position (More on this on our wiki)
+.breakvents                      Breaks vents/glass when arena starts
+.canshoot                        Toggle whether or not bots can shoot
+.clear                           Clears all active smokes/infernos and airborne projectiles
+.clearfailzones                  Clear all fail zones
+.clearpath                       Clears the entire path
+.clearsmokes                     Clear added smokes for arena
+.competitivearena                Should selected arena be included or not in .comp mode
+.completiontype                  Creator Studio Command completiontype
+.completionvalue                 Creator Studio Command completionvalue
+.ct                              Set player team to counter-terrorists
+.delarena                        Delete an arena
+.delbot                          Delete a bot
+.delbotgroup                     Delete a bot group
+.delfailzone                     Delete the fail zone you're currently standing in
+.delpath                         Deletes the last point in the path
+.delpreset                       Deletes a preset by name
+.delspawn                        Delete a spawn point
+.dodgespeed                      Set bots dodge aim speed (Flashbangs)
+.doorstate                       Cycle between the state of all doors for selected arena (Closed, Open, Destroyed)
+.drawfailzone                    Draw a zone which will reset the active arena if entered
+.drawpath                        Draw the path to follow for selected arena
+.dupearena                       Duplicate an existing arena
+.dupebot                         Duplicate an existing bot
+.dupebotgroup                    Duplicate an existing bot group
+.dupespawn                       Duplicate an existing spawn point
+.exportsettings                  Exports your current settings to console
+.importsettings                  Import a setting string (MUST BE USED IN CONSOLE AS 'say .importsettings <settingstring>')
+.insertarena                     Creator Studio Command insertarena
+.insertbot                       Creator Studio Command insertbot
+.insertbotgroup                  Creator Studio Command insertbotgroup
+.insertspawn                     Creator Studio Command insertspawn
+.jiggles                         Set the max amount of jiggles a bot can perform
+.kevlar                          Toggle bot kevlar modes or on players during pvp
+.kzgridang                       Sets the amount of units props angles should snap to
+.kzgridautosnap                  Turns on auto snapping for props, automatically sets .kzgridpos according to prop size
+.kzgridpos                       Sets the amount of units props position (X Y and Z) should snap to
+.kzprop                          Add a KZ prop
+.kzpropcolor                     Set the color of a KZ prop (RGBA format, 255, 255, 255, 255 for white)
+.kzpropdel                       Delete KZ prop (At crosshair)
+.kzprophealth                    Set the health of a prop (0 for unbreakable)
+.kzpropmove                      Creator Studio Command kzpropmove
+.kzproprotate                    Creator Studio Command kzproprotate
+.kzpropscale                     Set the scale of a prop (1.0 being default)
+.kzpropsclear                    Clear all KZ props
+.kzproptype                      Set the prop type (Normal, Bhop, Launch)
+.maxjiggle                       Set the max amount of distance bots will jiggle
+.maxjiggledelay                  Set the max amount of time bots stay hidden during each jiggle
+.maxspawns                       Set max amount of spawns for arenas (As a player setting)
+.maxspawnsarena                  Set max amount of spawns for a specific arena
+.maxspray                        Set the max amount of bullets a bot can spray
+.maxwide                         Set the max amount of distance bots will wide swing
+.minjiggle                       Set the min amount of distance bots will jiggle
+.minjiggledelay                  Set the min amount of time bots stay hidden during each jiggle
+.minspray                        Set the min amount of bullets a bot can spray
+.minwide                         Set the min amount of distance bots will wide swing
+.nospread                        Toggle no weapon_accuracy_nospread
+.offangle                        Set max amount of off angle a bot can spawn
+.pistol                          Toggle whether or not you should only get a pistol
+.playerhealth                    Set player health
+.playerprimary                   Set players default primary gun
+.playersecondary                 Set players default secondary gun
+.presets                         Lists or loads any saved set setting presets
+.previousstats                   Display stats from your previous run (Per weapon)
+.pvp                             Toggle pvp (To enable players to go on bot team)
+.pvpmode                         Toggle pvp mode (Normal crossfire behaviour, or duels behaviour)
+.pvputil                         Toggle whether or not players should get utility
+.random                          Set percentage amount of bots to spawn
+.randomarenas                    Toggle randomize arenas
+.randombotgroups                 Toggle randomize bot groups
+.randombotorder                  Toggle randomize which order bot spawns in
+.randomteam                      Toggle whether or not teams should be random each arena
+.reaction                        Set bots reaction time
+.repeekreaction                  Set bots repeek reaction time (When they've already spotted you once)
+.resetsessions                   Reset all your stats from previous runs
+.revert                          Revert arena changes
+.savepreset                      Save current settings as a preset to your set
+.scoretype                       Change the score type of set (Time/Points/Kill Time)
+.seamless                        Should previous arena transition seamlessly to this one
+.setreplay                       Sets the replay of an arena (Uses your most recently played arena in any mode)
+.showpath                        Toggle the path beam if there is one
+.showzone                        Toggle the spawn point zone beams
+.spawnpos                        Set spawn point position
+.swap                            Swap team
+.swaparena                       Swap arena order
+.swapbot                         Swap bot order
+.swapbotgroup                    Swap bot group order
+.swapspawn                       Swap spawn point order
+.swingorder                      Toggle the swing order of bots
+.t                               Set player team to terrorists
+.takedamagereset                 Should selected arena reset whenever a player takes damage
+.testreplay                      Tests replay of selected arena
+.testsmokes                      Test arena smokes
+.timed                           Should the arena be timed, set to 0 if not timed
+.utilgoal                        Sets your most recent thrown utility as the goal if arena type is utility
+.utilgoalreq                     Set the accuracy required to move onto next arena
+.utilgoalsize                    Sets how large the goal zone is
+.zonedraw                        Set the start point of a zone
+.zonetype                        Cycle between zone types for specific spawn point
+-------------------------------------------
